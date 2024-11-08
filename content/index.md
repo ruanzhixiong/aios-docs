@@ -6,12 +6,12 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v0.7.2'
+  title: '发布 v0.0.1 版本'
   icon: '🎉'
   to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases
   target: _blank
 actions:
-  - name: Get Started
+  - name: 快速开始
     to: /getting-started
   - name: GitHub
     variant: outline
@@ -20,10 +20,10 @@ actions:
 ---
 
 #title
-Effortless and Beautiful :br Docs Template.
+为你量身打造 :br 超级智能体.
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+我们将AI能力汇聚一处：根据个性化需求灵活定制智能助手功能 :br 解决问题，提升生产, 探索未来工作模式.
 ::
 
 <div class="border rounded-lg shadow-md">

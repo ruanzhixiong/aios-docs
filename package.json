@@ -1,5 +1,5 @@
 {
-  "name": "shadcn-docs-nuxt-starter",
+  "name": "aios-docs",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,12 +7,50 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/motion": "^2.2.6",
+    "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "highlight.js": "^11.10.0",
     "nuxt": "^3.13.2",
+    "nuxt-gtag": "^3.0.1",
+    "postprocessing": "^6.36.3",
+    "qss": "^3.0.0",
     "shadcn-docs-nuxt": "^0.7.2",
+    "simplex-noise": "^4.0.3",
     "vue": "^3.5.12",
-    "vue-router": "^4.4.5"
+    "vue-router": "^4.4.5",
+    "vue-use-spring": "^0.3.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.6.1",
+    "@eslint/js": "^9.13.0",
+    "@eslint/markdown": "^6.2.1",
+    "@iconify-json/vscode-icons": "^1.2.2",
+    "@inspira-ui/plugins": "0.0.1",
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/three": "^0.169.0",
+    "clsx": "^2.1.1",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-check-file": "^2.8.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "tailwind-merge": "^2.5.4",
+    "typescript-eslint": "^8.12.1"
   }
 }
