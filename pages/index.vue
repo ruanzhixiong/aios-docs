@@ -17,7 +17,7 @@ useSeoMeta({
     "Open Source components to build stunning animated interfaces effortlessly using Vue & Nuxt.",
   ogDescription:
     "Open Source components to build stunning animated interfaces effortlessly using Vue & Nuxt.",
-  ogImage: config.value.site.ogImage,
+
   twitterCard: "summary_large_image",
 });
 </script>
