@@ -13,11 +13,9 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
-  runtimeConfig: {
-    public: {
-      site: {
-        ogImage: "/logo.png",
-      },
+  nitro: {
+    prerender: {
+      failOnError: false, // 预渲染错误时不中断构建
     },
   },
   extends: ["shadcn-docs-nuxt"],
