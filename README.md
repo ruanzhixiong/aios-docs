@@ -1,49 +1,69 @@
-# shadcn-docs-nuxt Minimal Starter
+# 博般AIOS文档
 
-Starter template for [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt).
+## 项目简介
 
-## Setup
+博般AIOS是一个现代化的AI操作系统平台，提供了丰富的AI应用开发和部署功能。
 
-Make sure to install the dependencies:
+## 快速开始
+
+### 环境要求
+
+- Node.js >= 18.17.1 [下载](https://nodejs.org/zh-cn)
+
+### 安装
+
+确保安装所有依赖:
 
 ```bash
-# yarn
-yarn install
+# 安装pnpm
+npm install -g pnpm
 
-# npm
-npm install
-
-# pnpm
+# 安装依赖
 pnpm install
-
-# bun
-bun install
 ```
 
-## Development Server
+### 开发环境
 
-Start the development server on http://localhost:3000
+启动开发服务器:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
-## Production
+### 生产环境
+
+选择以下平台之一进行部署:
 
 [![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=ZTL-UwU/shadcn-docs-nuxt-starter)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
 
-Build the application for production:
+构建生产版本:
 
 ```bash
-npm run build
+pnpm run generate
 ```
 
-Locally preview production build:
+更多部署相关信息，请查看 [部署文档](https://nuxt.com/docs/getting-started/deployment)。
 
-```bash
-npm run preview
-```
+## 功能特性
 
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- 现代化的UI界面
+- 完整的AI应用开发框架
+- 丰富的组件库
+- 支持多平台部署
+
+## 技术栈
+
+- Nuxt.js
+- Vue 3
+- TypeScript
+- Shadcn UI
+
+## 贡献指南
+
+欢迎提交 Pull Request 和 Issue。在提交之前，请确保：
+
+1. 代码符合项目规范
+2. 添加必要的测试
+3. 更新相关文档
