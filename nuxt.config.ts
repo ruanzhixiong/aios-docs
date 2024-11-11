@@ -13,6 +13,9 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  site: {
+    url: "https://docs.aios.boban.com",
+  },
   nitro: {
     prerender: {
       failOnError: false, // 预渲染错误时不中断构建
